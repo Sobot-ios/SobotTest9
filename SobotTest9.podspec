@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "SobotTest9"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "A demo to test."
 
   s.description  = <<-DESC
@@ -33,9 +33,9 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
 
-  s.source       = { :git => "https://github.com/Sobot-ios/SobotTest9.git", :tag => "0.0.7" }
+  s.source       = { :git => "https://github.com/Sobot-ios/SobotTest9.git", :tag => "0.0.8" }
 
-  s.source_files  =  "include", "SobotTest9/**/*.{h,a}"
+  s.source_files  =  "include", "SobotTest9/**/*"
 
    s.requires_arc = true
 
